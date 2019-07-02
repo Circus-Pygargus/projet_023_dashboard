@@ -6,7 +6,7 @@ namespace App\Application;
 use \Twig_Loader_Filesystem;
 use \Twig_Environment;
 
-abstract class Template {
+class Template {
 
         // on peut définir soit public, private ou protected
         private const PATH = "../templates";
