@@ -4,7 +4,7 @@ namespace App\Application;
 
 use App\Application\DatabaseConfig;
 
-class Database extends DatabaseConfig {
+abstract class Database extends DatabaseConfig {
 
     /**
      * PDO STATEMENT

@@ -4,7 +4,7 @@ namespace App\Application;
 
 use Dotenv\Dotenv;
 
-class DatabaseConfig {
+abstract class DatabaseConfig {
 
     /**
      * @var PDO

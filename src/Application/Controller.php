@@ -5,7 +5,7 @@ namespace App\Application;
 use App\Application\Template;
 
 
-class Controller {
+abstract class Controller {
 
     /**
      * @var Template
